@@ -13,7 +13,6 @@ html, body {
 *, button, input {
   border: 0;
   background: 0;
-  font-family: var(--poppins)
 }
 
 button:focus, input, textarea {
@@ -36,7 +35,6 @@ img {
 
 :root {
   --container: 1120px;
-  --poppins: Poppins, Arial, sans-serif;
 
   @media (max-width: 1160px) {
     --container: 600px
