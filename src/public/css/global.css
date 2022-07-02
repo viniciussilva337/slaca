@@ -13,6 +13,7 @@ html, body {
 *, button, input {
   border: 0;
   background: 0;
+  font-family: var(--quicksand);
 }
 
 button:focus, input, textarea {
@@ -35,6 +36,17 @@ img {
 
 :root {
   --container: 1120px;
+
+  --quicksand:'Quicksand',sans-serif;
+  --roboto:'Roboto', sans-serif;
+  --primary: #ED7839;
+  --secondary: #FDF1EB;
+  --title-color: #4E4E4E;
+  --text-color: #5c5c5c;
+  --text-light: #ada0a0;
+  --white: #FFFFFF;
+  --black: #000000;
+  --border: #e7e7e7;
 
   @media (max-width: 1160px) {
     --container: 600px
