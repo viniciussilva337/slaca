@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html, body {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+*, button, input {
+  border: 0;
+  background: 0;
+  font-family: var(--poppins)
+}
+
+button:focus, input, textarea {
+  outline: none;
+}
+
+
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+:root {
+  --container: 1120px;
+  --poppins: Poppins, Arial, sans-serif;
+
+  @media (max-width: 1160px) {
+    --container: 600px
+  }
+
+  @media (max-width: 615px) {
+    --container: calc(100vw - 48px)
+  }
+}

@@ -4,9 +4,17 @@
   "main": "index.js",
   "author": "vinicius pires",
   "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",
     "@commitlint/config-conventional": "^17.0.3",
     "husky": "^8.0.1"
+  },
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.18"
   }
 }
